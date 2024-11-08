@@ -5,11 +5,11 @@ export default function Header() {
   return (
     <div className="bg-[#040F4E]">
       
-      <div className="flex flex-col md:flex-row justify-evenly p-4 md:p-14 font-bold text-white min-h-screen">
+      <div className="flex flex-col md:flex-row justify-evenly  md:p-14 font-bold text-white ">
 
-        <div className="items-center basis-full md:basis-1/2 p-4 md:p-[2rem] space-y-4 md:space-y-8 w-full">
+        <div className="items-center basis-full md:basis-1/2 md:p-[2rem] space-y-4 md:space-y-8 w-full">
 
-            <div className="w-full h-full items-center py-8 md:py-24">
+            <div className="w-full h-full items-center lg:py-6 py-8 md:py-24">
 
               <h1 className="text-2xl md:text-6xl">Information Technology And Software Development Consultants</h1>
 
@@ -24,11 +24,11 @@ export default function Header() {
 
         </div>
 
-        <div className="basis-full md:basis-1/2 p-4 md:p-[2rem] w-full">
+        <div className="basis-full md:basis-1/2 p-4 md:p-[2rem] w-full mx-auto">
           <Image
-            width={1000}
-            height={1000}
-            className="object-contain"
+            width={500}
+            height={500}
+            className="m-auto object-contain"
             src="/images/hero-img.jpg"
             alt="hero-banner"
             priority
