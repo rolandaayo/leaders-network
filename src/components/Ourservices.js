@@ -30,7 +30,7 @@ export default function Ourservices() {
               Information, Work Flow evaluation, Project Management, Scanning,
               Capturing and ....
             </p>
-            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
+            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white text-black rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
           </div>
 
           {/* software-development-section */}
@@ -48,7 +48,7 @@ export default function Ourservices() {
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
               Leaders Network Limited is a Software development & Solution firm that is focused on developing high standard and cost persuasive ....
             </p>
-            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
+            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white text-black  rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
           </div>
 
           {/* Resource-As-A-Service-(RAAS) */}
@@ -66,7 +66,7 @@ export default function Ourservices() {
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
               Leaders Network is experienced in Human resource outsourcing for Information Technology and Management jobs whereby an employer transfers ....
             </p>
-            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
+            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white text-black  rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ export default function Ourservices() {
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
               In view of the fact that the present social media platforms being used by politicians in Nigeria now rely so much on followership ....
             </p>
-            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
+            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white text-black  rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
           </div>
 
           {/* Management-Training-section */}
@@ -106,7 +106,7 @@ export default function Ourservices() {
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
               We train on the following: Leadership Training,Time Management and Human Development Training ....
             </p>
-            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
+            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white text-black  rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
           </div>
 
           {/* Smart-Card-Programming-section */}
@@ -124,7 +124,7 @@ export default function Ourservices() {
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
               Leaders Network offers solution for clients through the Smartcard technology. This comprise of smartcards and card readers....
             </p>
-            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
+            <button className="bg-transparent hover:bg-[#EC5E2A] hover:text-white text-black  rounded-full border-2 border-[#EC5E2A] p-3 md:p-4 text-sm md:text-base transition-colors duration-300 font-medium">READ MORE</button>
           </div>
         </div>
       </div>
