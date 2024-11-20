@@ -58,7 +58,7 @@ export default function Hero() {
     <div className="text-black px-4 sm:px-8 md:px-16 max-w-[1440px] mx-auto">
       <div className="text-3xl sm:text-5xl md:text-7xl py-4 sm:py-6 md:py-8 font-bold">
         <h1 className="leading-tight">
-          Hey, we&apos;re Leaders Network. See our thoughts, stories and ideas.
+          Hey, we are Leaders Network. See our thoughts, stories and ideas.
         </h1>
       </div>
 
@@ -114,7 +114,7 @@ export default function Hero() {
           ))}
         </div>
       </div>
-      
+
 {/* Featured blog posts carousel section */}
     
       <div>
