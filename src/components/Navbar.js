@@ -67,6 +67,10 @@ export default function Navbar() {
               <Link href="/blogs">
                 <li className="w-full md:w-auto text-center py-2 md:py-0 hover:text-grayhover:bg-blue-900 md:hover:bg-transparent px-4 rounded-md transition-all durationease-in-out transform hover:scale-105">BLOGS</li>
               </Link>
+
+              <Link href="/adminn">
+                <li className="w-full md:w-auto text-center py-2 md:py-0 hover:text-grayhover:bg-blue-900 md:hover:bg-transparent px-4 rounded-md transition-all durationease-in-out transform hover:scale-105">ADMIN</li>
+              </Link>
             </ul>
           </div>
         </nav>
