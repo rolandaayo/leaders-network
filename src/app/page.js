@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import Help from '@/components/Help'
 import Navbar from '@/components/Navbar'
 import Ourservices from '@/components/Ourservices'
 import Solutions from '@/components/Solutions'
@@ -14,6 +15,7 @@ export default function page() {
     <About/>
     <Ourservices/>
     <Solutions/>
+    <Help/>
     <Footer/>
     </>
   )
