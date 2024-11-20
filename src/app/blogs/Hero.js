@@ -110,6 +110,7 @@ export default function Hero() {
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 line-clamp-2">{post.title}</h2>
               <p className="text-base md:text-lg text-slate-600 line-clamp-3">{post.description}</p>
+              <button className="bg-slate-800 text-white px-4 py-1 rounded-lg mt-4">Read More</button>
             </div>
           ))}
         </div>
@@ -179,6 +180,7 @@ export default function Hero() {
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 line-clamp-2 hover:text-slate-700 transition-colors duration-300">{post.title}</h2>
               <p className="text-base md:text-lg text-slate-600 line-clamp-3">{post.description}</p>
+              <button className="bg-slate-800 text-white px-4 py-1 rounded-lg mt-4">Read More</button>
             </div>
           ))}
         </div>
