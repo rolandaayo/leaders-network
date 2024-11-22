@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
@@ -36,18 +37,37 @@ export default function Header() {
 
         <div className="flex-1 w-full max-w-xl">
           <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-transform duration-500 hover:scale-105">
-            <Image
-              width={2000}
-              height={2000}
-              className="w-full h-full object-cover"
-              src="/images/software.png"
-              alt="Professional IT Solutions"
-              priority
-            />
+            <div className="relative w-full h-[400px]">
+              {[
+                '/images/featured-1.jpg',
+                '/images/featured-2.jpg',
+                '/images/featured-3.jpg',
+                '/images/featured-4.jpg'
+              ].map((src, index) => (
+                <Image
+                  key={index}
+                  width={2000}
+                  height={2000}
+                  className={`w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-1000`}
+                  src={src}
+                  alt={`Professional IT Solutions ${index + 1}`}
+                  priority={index === 0}
+                  style={{
+                    opacity: 0,
+                    animation: `carouselFade 16s infinite ${index * 4}s`
+                  }}
+                />
+              ))}
+              <style jsx global>{`
+                @keyframes carouselFade {
+                  0%, 20% { opacity: 1; }
+                  25%, 95% { opacity: 0; }
+                  100% { opacity: 1; }
+                }
+              `}</style>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
-  )
+    </div>  )
 }
