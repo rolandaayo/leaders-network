@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <div className="text-black px-4 sm:px-8 lg:px-20 bg-gradient-to-br from-white to-gray-100 min-h-[90vh] flex items-center justify-center py-12">
+    <div className="text-black px-4 pt-10 sm:pt-0 sm:px-8 lg:px-20 bg-gradient-to-br from-white to-gray-100 min-h-[70vh] flex items-center justify-center">
       
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-16 max-w-7xl mx-auto w-full">
 
@@ -39,10 +39,10 @@ export default function Header() {
           <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-transform duration-500 hover:scale-105">
             <div className="relative w-full h-[400px]">
               {[
-                '/images/featured-1.jpg',
-                '/images/featured-2.jpg',
-                '/images/featured-3.jpg',
-                '/images/featured-4.jpg'
+                '/images/software.png',
+                '/images/web-development.jpg',
+                '/images/software-development.png',
+                '/images/programming.jpg'
               ].map((src, index) => (
                 <Image
                   key={index}

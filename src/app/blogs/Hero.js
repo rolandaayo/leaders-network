@@ -55,7 +55,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="text-black px-4 sm:px-8 md:px-16 max-w-[1440px] mx-auto">
+    <div className="text-[#EC5E2A] px-4 sm:px-8 md:px-16 max-w-[1440px] mx-auto">
       <div className="text-3xl sm:text-5xl md:text-7xl py-4 sm:py-6 md:py-8 font-bold">
         <h1 className="leading-tight">
           Hey, we are Leaders Network. See our thoughts, stories and ideas.
@@ -108,7 +108,7 @@ export default function Hero() {
                   <p key={tagIndex} className="bg-slate-800 px-4 py-1 rounded-full text-white text-xs md:text-sm transform transition-all duration-300 hover:scale-105 hover:bg-slate-700">{tag}</p>
                 ))}
               </div>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 line-clamp-2">{post.title}</h2>
+              <h2 className="text-xl text-[#EC5E2A] sm:text-2xl md:text-3xl font-bold mb-3 line-clamp-2">{post.title}</h2>
               <p className="text-base md:text-lg text-slate-600 line-clamp-3">{post.description}</p>
               <button className="bg-slate-800 text-white px-4 py-1 rounded-lg mt-4">Read More</button>
             </div>
@@ -120,7 +120,7 @@ export default function Hero() {
     
       <div>
         <div className="mt-8 sm:mt-12 md:mt-16">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-[#EC5E2A] ">
             See what we've written lately
           </h1>
         </div>
@@ -178,7 +178,7 @@ export default function Hero() {
                   <p key={tagIndex} className="bg-slate-800 px-4 py-1 rounded-full text-white text-xs md:text-sm transform transition-all duration-300 hover:scale-105 hover:bg-slate-700">{tag}</p>
                 ))}
               </div>
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 line-clamp-2 hover:text-slate-700 transition-colors duration-300">{post.title}</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl text-[#EC5E2A] font-bold mb-3 line-clamp-2 hover:text-slate-700 transition-colors duration-300">{post.title}</h2>
               <p className="text-base md:text-lg text-slate-600 line-clamp-3">{post.description}</p>
               <button className="bg-slate-800 text-white px-4 py-1 rounded-lg mt-4">Read More</button>
             </div>

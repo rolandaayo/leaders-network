@@ -4,17 +4,17 @@ import Image from 'next/image'
 export default function Solutions() {
   const solutions = [
     {
-      image: "/images/document-management.jpg",
+      image: "/images/website-development.jpg",
       title: "Website Development",
       description: "Leaders Network Ventures Ltd offer services in Digital Information, Work Flow evaluation, Project Management, Scanning, Capturing and ....",
     },
     {
-      image: "/images/software-development.png",
+      image: "/images/staff-recruitment.jpg",
       title: "Staff Recruitment",
-      description: "Leaders Network Limited is a Software development & Solution firm that is focused on developing high standard and cost persuasive ....",
+      description: "Leaders Network offers Staff Recruitment as a service. We follow all the basic processes of identifying, attracting, interviewing, selecting, hiring,  ....",
     },
     {
-      image: "/images/RaaS.png",
+      image: "/images/sdlc-software-development.jpg",
       title: "SDLC Software Development",
       description: "Leaders Network is experienced in Human resource outsourcing for Information Technology and Management jobs whereby an employer transfers ....",
     }
@@ -22,18 +22,18 @@ export default function Solutions() {
 
   const additionalSolutions = [
     {
-      image: "/images/social-media.png",
-      title: "Social Media Campaigns",
+      image: "/images/data-analysis.jpg",
+      title: "Data Analysis",
       description: "In view of the fact that the present social media platforms being used by politicians in Nigeria now rely so much on followership ....",
     },
     {
-      image: "/images/management-trainning.jpg",
-      title: "Management Training",
+      image: "/images/social-media-ad.jpg",
+      title: "Social Media Adverts",
       description: "We train on the following: Leadership Training,Time Management and Human Development Training ....",
     },
     {
-      image: "/images/smartcard.jpg",
-      title: "Smart-Card Programming",
+      image: "/images/mobile-app-development.avif",
+      title: "Mobile Apps Development",
       description: "Leaders Network offers solution for clients through the Smartcard technology. This comprise of smartcards and card readers....",
     }
   ]

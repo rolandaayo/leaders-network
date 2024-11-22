@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="text-black py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8">
+    <div className="text-[#EC5E2A] py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-1 space-y-4 sm:space-y-6">
@@ -60,7 +60,7 @@ export default function Hero() {
             />
           </div>
           <div className="flex-1 md:w-1/2 space-y-6 px-4 sm:px-6 md:px-0">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">Our services are as follows:</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#EC5E2A] tracking-tight">Our services are as follows:</h2>
             <ol className="space-y-4 text-base sm:text-lg text-gray-700">
               <li className="flex items-center gap-3 hover:text-blue-600 transition-colors duration-200">
                 <span className="w-2.5 h-2.5 bg-blue-500 rounded-full animate-pulse"></span>
